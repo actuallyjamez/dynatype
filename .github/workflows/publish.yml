@@ -1,4 +1,4 @@
-name: Publish package to GitHub Packages
+name: publish
 on:
   release:
     types: [ created ]
@@ -15,7 +15,7 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@actuallyjamez'
-      - run: npm ci
+      - run: yarn --frozen-lockfile
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
