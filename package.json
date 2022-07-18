@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "dynatype",
+  "name": "@actuallyjamez/dynatype",
   "author": "James Morris",
   "module": "dist/dynatype.esm.js",
   "size-limit": [
@@ -44,6 +44,10 @@
       "limit": "10 KB"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/actuallyjamez/dynatype.git"
+  },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
     "eslint-config-prettier": "^8.5.0",
