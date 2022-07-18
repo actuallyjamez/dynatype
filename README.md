@@ -1,0 +1,1 @@
+very simple dynamo db object mapper
